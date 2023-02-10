@@ -1,0 +1,18 @@
+package flipkart.com;
+
+public class DogReturntype {
+
+	String display() {
+
+		return "peditri";
+	}
+
+	public static void main(String[] args) {
+
+		DogReturntype r1 = new DogReturntype();
+		String str= r1.display();
+		
+		System.out.println(str);
+
+	}
+}

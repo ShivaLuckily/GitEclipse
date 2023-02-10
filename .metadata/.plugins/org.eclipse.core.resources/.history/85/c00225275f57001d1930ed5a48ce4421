@@ -1,0 +1,18 @@
+package flipkart.com;
+
+public class DogReturntype {
+
+	void display() {
+
+	System.out.println("Sanu is good");
+	}
+
+	public static void main(String[] args) {
+
+		DogReturntype r1 = new DogReturntype();
+		 r1.display();
+		
+	
+
+	}
+}

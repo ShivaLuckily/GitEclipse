@@ -1,0 +1,37 @@
+package flipkart.com;
+
+abstract class SanuAsALead {
+
+	String name;
+	String address;
+	int number;
+
+	public abstract void testSearchButton();
+	public abstract void testMenuLink();
+	public abstract void testHomeIcon();
+	
+	
+	
+	
+
+	public void start() {
+
+	}
+
+}
+
+/*public class Abstraction extends SanuAsALead {
+
+	public void display() {
+
+		System.out.println("displayed");
+	}
+
+	public static void main(String[] args) {
+
+		Abstraction a1 = new Abstraction();
+
+		a1.display();
+
+	}*/
+//}

@@ -1,0 +1,33 @@
+package flipkart.com;
+
+ class Suv300 {
+	void run() {
+		System.out.println("Vehicle is running");
+	}
+}
+
+class Suv500 extends Vehicle {
+
+	void run() {
+		System.out.println("Suv500 is running safely");
+	}
+	
+	
+	class Suv700 extends Vehicle {
+
+		void run() {
+			System.out.println("Suv700 is running safely");
+		}
+	
+	
+}
+
+
+public class SuvCar{
+
+	public static void main(String args[]) {
+		Suv700 obj = new Suv700();
+		obj.run();
+
+	}
+}

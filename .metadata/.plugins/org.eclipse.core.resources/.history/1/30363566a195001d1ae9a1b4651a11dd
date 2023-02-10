@@ -1,0 +1,27 @@
+package flipkart.com;
+
+
+
+abstract class Employee{
+	
+	
+String name;
+String address;
+int number;
+	   
+public abstract double display();
+	
+public void start() {
+	
+	
+}		
+	
+}
+
+
+
+
+
+public class Abstraction {
+
+}

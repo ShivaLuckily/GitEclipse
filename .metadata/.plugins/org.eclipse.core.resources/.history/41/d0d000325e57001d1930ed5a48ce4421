@@ -1,0 +1,16 @@
+package flipkart.com;
+
+public class ReturnDataType {
+
+	String display() {
+
+		return "";
+	}
+
+	public static void main(String[] args) {
+
+		DogReturntype r1 = new DogReturntype();
+		r1.display();
+
+	}
+}

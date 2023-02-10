@@ -1,0 +1,13 @@
+package flipkart.com;
+
+ class Start {
+	
+	static int add(int a,int b){return a+b;}  
+	static double add(int a,int b){return a+b;}  
+	}  
+ public	class AdderMethodOverloading{  
+	public static void main(String[] args){  
+	System.out.println(Start.add(11,11));
+
+}
+}

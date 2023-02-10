@@ -1,0 +1,35 @@
+package flipkart.com;
+
+abstract class Employee {
+
+	String name;
+	String address;
+	int number;
+
+	public abstract void display();
+
+	public void start() {
+
+	}
+
+}
+
+public class Abstraction extends Employee {
+
+	
+	 public void display() {
+		 
+		 System.out.println("displayed");
+	 }
+	
+	public static void main(String[] args) {
+		
+		
+	Abstraction a1= new Abstraction();
+	
+	a1.display();
+			
+
+
+}
+}

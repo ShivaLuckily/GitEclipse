@@ -1,0 +1,34 @@
+package flipkart.com;
+
+class Test {
+
+	static int i = 10;//instance variable
+	
+	//int i = 10;//instance variable
+	
+	
+	int j = 20;
+
+	void display() {
+
+		// we cannot use static in case of local varibale
+		// static int x=40;
+	}
+
+}
+
+public class StaticTest {
+
+	public static void main(String[] args) {
+		
+		
+		Test t1=new Test();
+		System.out.println(t1.i);
+
+		//System.out.println(Test.i);
+
+		// we need to create object as static varibale belongs to class label not object
+		// System.out.println(Test.j);
+
+	}
+}
